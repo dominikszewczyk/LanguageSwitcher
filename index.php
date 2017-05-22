@@ -11,7 +11,9 @@
 <body>
     <div>
         <?php
-            if(isset($_GET['lang'])) {
+            $langs = array('en', 'de', 'pl');
+        
+            if(isset($_GET['lang']) && in_array($_GET['lang'], $langs)) {
                 $choose_lang = $_GET['lang'];
                 setcookie("language", $choose_lang, time()+60*60*24*30);
             } else {
