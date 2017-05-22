@@ -41,9 +41,9 @@
             echo $lang;
         ?>
         <br/>
-        <a class="language" data-language="pl" href="?lang=pl">PL</a>
-        <a class="language" data-language="en" href="?lang=en">EN</a>
-        <a class="language" data-language="de" href="?lang=de">DE</a>
+        <a class="language" href="/pl">PL</a>
+        <a class="language" href="/en">EN</a>
+        <a class="language" href="/de">DE</a>
         
     </div>
     <script

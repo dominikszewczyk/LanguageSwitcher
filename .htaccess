@@ -1,1 +1,4 @@
 RewriteEngine On
+RewriteBase /
+RewriteRule ^([a-zA-Z-_0-9]+)/?$ index.php?lang=$1
+RewriteRule ^pl ^ [L]
